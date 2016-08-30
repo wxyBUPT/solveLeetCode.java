@@ -17,10 +17,11 @@
 * [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)  本题不算困难,代码量也不多
 
 
-
 ##比较困难,但是自己能够想到,之后可以再做几遍
 
 ### 15 题  [3Sum](https://leetcode.com/problems/3sum/)  
+### 154题 [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)
+
  
  需要重新完成,借鉴了别人的思路
  
