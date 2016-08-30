@@ -10,6 +10,8 @@
 * 118 注意ArrayList 要初始化
 * 119 
 * 88 比较简单的归并排序
+* 9 数学问题,可以再做一遍
+
 
 ##目测比较简单,但是提交了多次
 
@@ -35,3 +37,6 @@
 
 本题目提交多次,并借鉴了别人的思路,需要时间复杂度较好的方法
 
+### 84. [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)  
+
+**本题为遗留问题,太难想不通**

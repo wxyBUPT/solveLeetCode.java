@@ -17,6 +17,14 @@ package arrary;
  The array may contain duplicates.
  */
 public class Solution_154 {
+
+    /**
+     * 本解法是利用递归,空间复杂度较高
+     *
+     * 如果想降低空间复杂度,遇到重复元素,可以跳过重复的元素
+     * @param nums
+     * @return
+     */
     public int findMin(int[] nums) {
         int start = 0;
         int end = nums.length - 1;
