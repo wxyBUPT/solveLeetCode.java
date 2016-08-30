@@ -21,6 +21,10 @@
 ### 15 题  [3Sum](https://leetcode.com/problems/3sum/)  
  
  需要重新完成,借鉴了别人的思路
+ 
+### 18题  [4Sum](https://leetcode.com/problems/4sum/) 
+
+时间复杂度相对于别人来说并不是最优的
 
 ##非常困难,不是自己解决的问题,需要再刷
 
