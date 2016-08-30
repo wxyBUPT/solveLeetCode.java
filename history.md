@@ -13,8 +13,10 @@
 
 ##目测比较简单,但是提交了多次
 
-* [80. Remove Duplicates from Sorted Array II]https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/
-* 
+* [80. Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)
+* [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)  本题不算困难,代码量也不多
+
+
 
 ##比较困难,但是自己能够想到,之后可以再做几遍
 
