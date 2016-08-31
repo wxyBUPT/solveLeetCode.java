@@ -11,12 +11,13 @@
 * 119 
 * 88 比较简单的归并排序
 * 9 数学问题,可以再做一遍
-
+* 
 
 ##目测比较简单,但是提交了多次
 
 * [80. Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)
 * [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)  本题不算困难,代码量也不多
+* [74.Search a 2D matrix](https://leetcode.com/problems/search-a-2d-matrix/)
 
 
 ##比较困难,但是自己能够想到,之后可以再做几遍
