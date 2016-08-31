@@ -1,5 +1,7 @@
 package arrary;
 
+import java.util.Arrays;
+
 /**
  * Created by xiyuanbupt on 8/30/16.
 
@@ -26,31 +28,26 @@ public class Solution_74 {
          *
          */
         if(matrix[0][0]>target)return false;
-        if(matrix[len-1][0]<=target)return binarySearch(matrix[len-1],target);
+        if(matrix[len-1][0]<=target){
+            if(Arrays.binarySearch(matrix[len-1],target)<0)return false;
+            else return true;
+        }
 
         int start = 0,end = len - 2;
         while (start<=end){
             int mid = (start+end)/2;
             if(matrix[mid][0]>target)end = mid-1;
             else {
-                if(matrix[mid+1][0]>target)return binarySearch(matrix[mid],target);
+                if(matrix[mid+1][0]>target){
+                    int i = Arrays.binarySearch(matrix[mid], target);
+                    if(i<0)return false;
+                    else return true;
+                }
+
                 else start = mid + 1;
             }
         }
         return false;
-    }
-
-    private boolean binarySearch(int[] line,int target){
-        int start = 0;
-        int end = line.length - 1;
-        while(start<=end){
-            int mid = (start + end)/2;
-            if(line[mid]<target) start = mid+1;
-            else if(line[mid]>target)end = mid -1;
-            else return true;
-        }
-        return false;
-
     }
 
     public static void main(String[] args){
@@ -66,6 +63,5 @@ public class Solution_74 {
         res = solution_74.searchMatrix(matrix2,1);
         System.out.println(res);
         int[] a = {1,};
-        System.out.println(solution_74.binarySearch(a,1));
     }
 }
