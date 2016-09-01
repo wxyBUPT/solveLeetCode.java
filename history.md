@@ -30,6 +30,7 @@
 * [74.Search a 2D matrix](https://leetcode.com/problems/search-a-2d-matrix/)
 * [106.Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)
 * [112. Path Sum](https://leetcode.com/problems/path-sum/)  
+* [114. 非递归前序遍历二叉树](https://leetcode.com/problems/binary-tree-preorder-traversal/) 
 
 
 
