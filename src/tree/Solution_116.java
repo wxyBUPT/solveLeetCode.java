@@ -37,6 +37,8 @@ import java.util.List;
 
 /**
  * 有点类似于层序遍历
+ * 但是本题还有另外的一种解法,即有一种规律
+ * ......
  */
 public class Solution_116 {
     public void connect(TreeLinkNode root) {
