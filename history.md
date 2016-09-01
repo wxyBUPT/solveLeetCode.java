@@ -37,6 +37,8 @@
 * [112. Path Sum](https://leetcode.com/problems/path-sum/)  
 * [114. 非递归前序遍历二叉树](https://leetcode.com/problems/binary-tree-preorder-traversal/) 
 * [145.非递归二叉树的后续遍历(几个遍历中最难的)](https://leetcode.com/problems/binary-tree-postorder-traversal/) 
+* [116.路径求和](https://leetcode.com/problems/path-sum-ii/)
+
 
 
 
