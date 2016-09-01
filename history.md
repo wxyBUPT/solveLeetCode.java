@@ -40,15 +40,11 @@
 * [116.路径求和](https://leetcode.com/problems/path-sum-ii/)
 
 
-
-
-
-
-
 ##比较困难,但是自己能够想到,之后可以再做几遍
 
 ### 15 题  [3Sum](https://leetcode.com/problems/3sum/)  
 ### 154题 [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)
+### 114题 使用自己的方法竟然做出来了,但是想法有点奇怪 [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)
 
  
  需要重新完成,借鉴了别人的思路

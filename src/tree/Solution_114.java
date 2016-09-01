@@ -29,13 +29,37 @@ package tree;
 import java.util.Stack;
 
 /**
- * 使用的思路是preOrder
- * 非递归方式
+ * 有点类似于节点旋转
  */
 public class Solution_114 {
     public void flatten(TreeNode root) {
         if(root == null)return ;
-        Stack<TreeNode> nodeStack = new Stack<>();
+        flattenn(root);
+    }
 
+    public TreeNode flattenn(TreeNode root){
+        if(root==null)return null;
+        if(root.left==null&&root.right==null){
+            return root;
+        }
+        else if(root.left!=null&&root.right!=null) {
+            TreeNode leftStart = root.left;
+            TreeNode leftEnd = flattenn(root.left);
+            TreeNode rightStart = root.right;
+            TreeNode rightEnd = flattenn(root.right);
+            root.right = leftStart;
+            leftEnd.right = rightStart;
+            root.left = null;
+            return rightEnd;
+        }else if(root.left!=null&&root.right==null){
+            TreeNode leftStart =root.left;
+            TreeNode leftEnd = flattenn(root.left);
+            root.right = leftStart;
+            root.left = null;
+            return leftEnd;
+        }else {
+            TreeNode rightEnd = flattenn(root.right);
+            return rightEnd;
+        }
     }
 }
