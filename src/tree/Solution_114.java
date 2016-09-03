@@ -30,6 +30,7 @@ import java.util.Stack;
 
 /**
  * 有点类似于节点旋转
+ * 但是还可以用前序遍历的方式
  */
 public class Solution_114 {
     public void flatten(TreeNode root) {
@@ -60,6 +61,26 @@ public class Solution_114 {
         }else {
             TreeNode rightEnd = flattenn(root.right);
             return rightEnd;
+        }
+    }
+
+    /**
+     * 前序遍历版本
+     * @param root
+     */
+    public void flatten2(TreeNode root){
+        if (root == null)return ;
+        Stack<TreeNode> nodeStack = new Stack<>();
+        TreeNode currentNode = root;
+        while (currentNode != null){
+            nodeStack.push(currentNode);
+            currentNode = currentNode.left;
+        }
+        TreeNode parent = nodeStack.peek();
+        while(!nodeStack.isEmpty()){
+            currentNode = nodeStack.pop();
+            parent.right = currentNode.right;
+
         }
     }
 }
