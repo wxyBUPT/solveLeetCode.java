@@ -41,6 +41,8 @@
 * [114. 非递归前序遍历二叉树](https://leetcode.com/problems/binary-tree-preorder-traversal/) 
 * [145.非递归二叉树的后续遍历(几个遍历中最难的)](https://leetcode.com/problems/binary-tree-postorder-traversal/) 
 * [116.路径求和](https://leetcode.com/problems/path-sum-ii/)
+* [39. Combination Sum](https://leetcode.com/problems/combination-sum/)
+
 
 
 ##比较困难,但是自己能够想到,之后可以再做几遍
