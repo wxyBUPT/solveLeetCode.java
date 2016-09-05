@@ -75,4 +75,8 @@
 
 ### 84. [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)  
 
+### 160. [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)  
+
+本题目本来是很简单,但是自己没有想到很简单的想法,并且使用了别人的方法
+
 **本题为遗留问题,太难想不通**
