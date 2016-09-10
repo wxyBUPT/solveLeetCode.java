@@ -60,6 +60,8 @@
 * [3. Longest Substring without repeation characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 * [142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii) 
 * [所有的两点问题比较容易忘记,需要重新完成](https://leetcode.com/tag/two-pointers/)  
+* [14 Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)
+
 
 
 
