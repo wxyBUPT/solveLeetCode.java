@@ -61,7 +61,8 @@
 * [142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii) 
 * [所有的两点问题比较容易忘记,需要重新完成](https://leetcode.com/tag/two-pointers/)  
 * [14 Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)
-* [303] Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)
+* [303.Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)
+* [376. WiggleSubsequence](https://leetcode.com/problems/wiggle-subsequence/),*尝试使用dp 和greedy 两种解法解决问题*
 
 
 
@@ -78,6 +79,8 @@
  需要重新完成,借鉴了别人的思路
  
 ### 18题  [4Sum](https://leetcode.com/problems/4sum/) 
+### 375题 [Guess Number Higher or Lower II](https://leetcode.com/problems/guess-number-higher-or-lower-ii/)  
+  本题还有从低向上的思路,之后写下
 
 时间复杂度相对于别人来说并不是最优的
 
