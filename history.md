@@ -61,6 +61,7 @@
 * [142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii) 
 * [所有的两点问题比较容易忘记,需要重新完成](https://leetcode.com/tag/two-pointers/)  
 * [14 Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)
+* [303] Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)
 
 
 
