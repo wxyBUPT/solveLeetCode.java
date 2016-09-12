@@ -39,4 +39,16 @@ public class Solution_392 {
         }
         return false;
     }
+
+    public boolean isSubsequence2(String s,String t){
+        if(t.length()<s.length())return false;
+        int pre = 0;
+        for(int i = 0;i<s.length();i++){
+            char tmpChar = s.charAt(i);
+            pre = t.indexOf(tmpChar,pre);
+            if(pre==-1)return false;
+            pre++;
+        }
+        return true;
+    }
 }
