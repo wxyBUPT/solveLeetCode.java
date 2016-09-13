@@ -19,6 +19,11 @@ package tree;
  */
 public class Solution_226 {
 
+    /**
+     * 这是递归的算法,还有一种算法是使用非递归的方式,使用层序遍历
+     * @param root
+     * @return
+     */
     public TreeNode invertTree(TreeNode root) {
         if(root==null)return null;
         TreeNode tmp = root.left;
