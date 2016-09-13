@@ -59,7 +59,7 @@
 * 223
 * 273 
 * 165 
-* 168 
+* 171
 
 ##目测比较简单,但是提交了多次
 
@@ -79,6 +79,8 @@
 * [303.Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)
 * [376. WiggleSubsequence](https://leetcode.com/problems/wiggle-subsequence/),*尝试使用dp 和greedy 两种解法解决问题*
 * [396. Rotate Function](https://leetcode.com/problems/rotate-function/)  
+* [168. Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/)  
+
 
 
 
