@@ -84,6 +84,9 @@
 
 ### 368 题 [Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/)  
    凡是dp 的做的都不是很理想,希望最后使用python 再刷一遍
+ 
+### 264 题 [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)  
+   本来挺简单,自己没有想到
 
 时间复杂度相对于别人来说并不是最优的
 
