@@ -133,7 +133,51 @@ public class LCollections {
          */
         List<DogForCollection> useCopies = Collections.nCopies(2,new DogForCollection("Lele"));
 
-        
+        DogForCollection huhu = new DogForCollection("huhu");
+        /**
+         * replaceAll 同样使用equals 方法来判断
+         */
+        Collections.replaceAll(dogs,lele,huhu);
+        System.out.println(dogs.toString());
+
+        /**
+         * reverseOrder() 的两个方法用来返回一个比较器
+         */
+
+        System.out.println(dogs);
+        /**
+         * 根据指定的距离轮换指定列表中的元素
+         */
+        Collections.rotate(dogs,1);
+        System.out.println(dogs);
+
+        /**
+         * shuffle 使用默认的随机源对指定列表进行置换
+         */
+        Collections.addAll(dogs,new DogForCollection("haha"),new DogForCollection("dahuang"),new DogForCollection("hongdou"));
+        System.out.println(dogs.toString());
+        Collections.shuffle(dogs);
+        System.out.println(dogs.toString());
+
+        /**
+         * 根据元素的自然顺序对指定列表进行排序
+         */
+        Collections.sort(dogs);
+        System.out.println(dogs.toString());
+        Collections.sort(dogs,Collections.<DogForCollection>reverseOrder());
+        System.out.println(dogs.toString());
+
+        /**
+         * 在指定列表的指定位置交换元素
+         */
+        Collections.swap(dogs,1,2);
+        System.out.println(dogs.toString());
+
+        /**
+         * Collections 中包含一大堆synchronize 操作,这些操作一般是包装一层,然后限定操作为sync
+         */
+        List<DogForCollection> syncDogs = Collections.synchronizedList(dogs);
+
     }
 
     static class DogForCollection implements Comparable<DogForCollection> {
