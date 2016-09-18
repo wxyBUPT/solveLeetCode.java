@@ -89,6 +89,8 @@
 * [168. Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/)  
 * [55. Jump Game](https://leetcode.com/problems/jump-game/) 
 * [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)  
+* [61 Rotate List](https://leetcode.com/problems/rotate-list/) *自己想的和最优雅的答案有一定偏差* 
+
 
 
 
