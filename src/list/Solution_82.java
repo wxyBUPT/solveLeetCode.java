@@ -28,7 +28,7 @@ public class Solution_82 {
                 tail.next = null;
             }else {
                 curr = curr.next;
-                while (curr != null (curr.next == null || curr.next.val == curr.val)){
+                while (curr != null && (curr.next == null || curr.next.val == curr.val)){
                     curr = curr.next;
                 }
                 if(curr!=null)curr = curr.next;
