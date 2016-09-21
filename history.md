@@ -81,14 +81,7 @@
 * [376. WiggleSubsequence](https://leetcode.com/problems/wiggle-subsequence/),*尝试使用dp 和greedy 两种解法解决问题*
 * [396. Rotate Function](https://leetcode.com/problems/rotate-function/)  
 * [168. Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/)  
-
-
-
-
-
-
-
-
+* [204. Count Primes](https://leetcode.com/problems/count-primes/)  
 
 
 ##比较困难,但是自己能够想到,之后可以再做几遍
