@@ -44,9 +44,15 @@ public class LIO {
             FileInputStream fi = new FileInputStream("./test_java.in");
             InputStreamReader inputStreamReader = new InputStreamReader(fi);
             BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
+            BufferedReader bufferedReader1 = new BufferedReader(new FileReader("./test_java.in"));
         }catch (FileNotFoundException e){
             e.printStackTrace();
         }
 
+        try {
+            RandomAccessFile randomAccessFile = new RandomAccessFile(new File("./random_access.in"), "rw");
+        }catch (Exception e){
+            e.printStackTrace();
+        }
     }
 }
