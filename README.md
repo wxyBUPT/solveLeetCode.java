@@ -86,6 +86,7 @@
 * [303.Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)
 * [376. WiggleSubsequence](https://leetcode.com/problems/wiggle-subsequence/),*尝试使用dp 和greedy 两种解法解决问题*
 * [396. Rotate Function](https://leetcode.com/problems/rotate-function/)  
+* [227 Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)  
 * [168. Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/)  
 * [55. Jump Game](https://leetcode.com/problems/jump-game/) 
 * [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)  
