@@ -21,4 +21,12 @@ public class Solution_338 {
         }
         return res;
     }
+    public int[] countBits1(int num) {
+        int[] result = new int[num+1];
+        result[0] = 0;
+        for(int i=1;i<=num;i++){
+            result[i] = result[i/2] + i%2;
+        }
+        return result;
+    }
 }
