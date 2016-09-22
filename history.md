@@ -82,7 +82,7 @@
 * [396. Rotate Function](https://leetcode.com/problems/rotate-function/)  
 * [168. Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/)  
 * [204. Count Primes](https://leetcode.com/problems/count-primes/)  
-
+* [36 Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)  
 
 ##比较困难,但是自己能够想到,之后可以再做几遍
 
