@@ -7,6 +7,5 @@ import java.util.concurrent.BlockingQueue;
  */
 public class LConcurrent {
     public static void main(String[] args){
-        BlockingQueue
     }
 }
