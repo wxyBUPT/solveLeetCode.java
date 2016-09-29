@@ -27,7 +27,5 @@ public class LConcurrent {
             e.printStackTrace();
         }
         ConcurrentMap<Integer,Integer> concurrentMap = new ConcurrentHashMap<>();
-        ArrayBlockingQueue
-        AbstractExecutorService
     }
 }
