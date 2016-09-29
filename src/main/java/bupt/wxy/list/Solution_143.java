@@ -1,4 +1,4 @@
-package main.java.bupt.wxy.list;
+package bupt.wxy.list;
 
 /**
  * Created by xiyuanbupt on 9/18/16.
