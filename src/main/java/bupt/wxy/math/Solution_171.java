@@ -1,4 +1,4 @@
-package main.java.bupt.wxy.math;
+package bupt.wxy.math;
 
 /**
  * Created by xiyuanbupt on 9/13/16.

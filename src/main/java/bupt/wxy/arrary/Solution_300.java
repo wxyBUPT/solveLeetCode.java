@@ -1,4 +1,4 @@
-package main.java.bupt.wxy.arrary;
+package bupt.wxy.arrary;
 
 /**
  * Created by xiyuanbupt on 9/5/16.

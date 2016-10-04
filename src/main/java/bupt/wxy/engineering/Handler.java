@@ -1,4 +1,4 @@
-package main.java.bupt.wxy.engineering;
+package bupt.wxy.engineering;
 
 /**
  * Created by xiyuanbupt on 9/20/16.

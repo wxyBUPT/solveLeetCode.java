@@ -1,4 +1,4 @@
-package main.java.bupt.wxy.arrary;
+package bupt.wxy.arrary;
 
 import java.util.HashMap;
 import java.util.Map;

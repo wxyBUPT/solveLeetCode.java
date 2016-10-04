@@ -1,4 +1,4 @@
-package main.java.bupt.wxy.dp;
+package bupt.wxy.dp;
 
 /**
  * Created by xiyuanbupt on 9/12/16.

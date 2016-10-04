@@ -1,4 +1,4 @@
-package main.java.bupt.wxy.learn.util;
+package bupt.wxy.learn.util;
 
 import java.util.AbstractQueue;
 import java.util.ArrayDeque;

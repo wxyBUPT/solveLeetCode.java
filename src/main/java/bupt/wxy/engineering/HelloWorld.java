@@ -1,4 +1,4 @@
-package main.java.bupt.wxy.engineering;
+package bupt.wxy.engineering;
 
 public class HelloWorld{
     public static void main(String[] args){

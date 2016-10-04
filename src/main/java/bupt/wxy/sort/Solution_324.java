@@ -1,4 +1,4 @@
-package main.java.bupt.wxy.sort;
+package bupt.wxy.sort;
 
 import java.util.Arrays;
 

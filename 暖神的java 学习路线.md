@@ -47,7 +47,7 @@ Java是一个通用的编程语言，其实可以干很多事，怎么学Java就
   * 如果有空的话，看看memory model（内存一致性模型）和无锁同步（见java memory model和java.util.concurrent.atomic）。
   * 如果还有空，再了解一下除了“共享内存多线程编程”以外有没有别的模型（多进程multi-processing、消息传递message passing等）。
 
-【反射、元编程】学习Java的反射机制，以及Annotation的用法。
+【反射、元编程】学习Java的反射机制，以及 Annotation 的用法。
   * 如果还舒服，试试java.lang.reflect.Proxy的用法。
   * 如果仍然还舒服，玩一玩CGLib（一个第三方的库）。
 

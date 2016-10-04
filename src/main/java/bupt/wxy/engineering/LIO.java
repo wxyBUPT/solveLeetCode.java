@@ -1,4 +1,4 @@
-package main.java.bupt.wxy.engineering;
+package bupt.wxy.engineering;
 
 import java.io.*;
 import java.nio.ByteBuffer;

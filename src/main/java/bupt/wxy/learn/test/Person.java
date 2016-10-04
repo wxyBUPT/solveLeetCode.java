@@ -1,4 +1,4 @@
-package main.java.bupt.wxy.learn.test;
+package bupt.wxy.learn.test;
 
 import java.io.Serializable;
 
