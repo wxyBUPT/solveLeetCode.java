@@ -93,6 +93,7 @@
 * [61 Rotate List](https://leetcode.com/problems/rotate-list/) *自己想的和最优雅的答案有一定偏差* 
 * [347 Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) 
 * [334 https://leetcode.com/problems/increasing-triplet-subsequence/](https://leetcode.com/problems/increasing-triplet-subsequence/)
+* [282](https://leetcode.com/problems/expression-add-operators/) 
 
 
 
