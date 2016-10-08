@@ -4,7 +4,7 @@ import java.util.*;
 
 /**
  * Created by xiyuanbupt on 9/4/16.
- Given a digit main.java.bupt.wxy.string, return all possible letter combinations that the number could represent.
+ Given a digit , return all possible letter combinations that the number could represent.
 
  A mapping of digit to letters (just like on the telephone buttons) is given below.
 
