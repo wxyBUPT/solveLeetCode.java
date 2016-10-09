@@ -7,6 +7,8 @@ import java.util.Comparator;
 /**
  * Created by xiyuanbupt on 10/9/16.
  * Merge k sorted linked lists and return it as one sorted list. Analyze and describe its complexity.
+ * 本题还可以使用败者树
+ * 败者树的实现
  */
 public class Solution_23 {
     public ListNode mergeKLists(ListNode[] lists) {
