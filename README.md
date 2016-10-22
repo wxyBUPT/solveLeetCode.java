@@ -138,6 +138,8 @@
 
 ### 406. [Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/0) 
 
+### 140. [Word Break II](https://leetcode.com/problems/word-break-ii/)
+
 
 本题目本来是很简单,但是自己没有想到很简单的想法,并且使用了别人的方法
 
