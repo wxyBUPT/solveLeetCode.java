@@ -140,6 +140,8 @@
 
 ### 140. [Word Break II](https://leetcode.com/problems/word-break-ii/)
 
+### 76. [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)  
+
 
 本题目本来是很简单,但是自己没有想到很简单的想法,并且使用了别人的方法
 
