@@ -23,14 +23,10 @@ import java.util.*;
 
 class Solution_398{
 
-}
-
-class Solution{
-
     Map<Integer,List<Integer>> map;
     private Random randomGenerator;
 
-    public Solution(int[] nums) {
+    public Solution_398(int[] nums) {
         map = new HashMap<>();
         for(int i = 0;i<nums.length;i++){
             int num = nums[i];
