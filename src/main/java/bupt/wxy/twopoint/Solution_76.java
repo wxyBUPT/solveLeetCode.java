@@ -23,6 +23,7 @@ import java.util.Set;
 public class Solution_76 {
 
 
+    // 一个非常经典的窗口算法
     public String minWindow(String s,String t){
         int i=0,j=0,I=0;
         int d = Integer.MAX_VALUE;
