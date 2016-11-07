@@ -28,9 +28,15 @@ import java.util.List;
 public class Solution_89 {
 
     public List<Integer> grayCode(int n) {
-        List<Integer> res = new LinkedList<>();
-        for(int i = 0;i<1<<n;i++)res.add(i^i>>1);
-        return res;
+        ArrayList<Integer> arr = new ArrayList<Integer>();
+        arr.add(0);
+        for(int i=0;i<n;i++){
+            int inc = 1<<i;
+            for(int j=arr.size()-1;j>=0;j--){
+                arr.add(arr.get(j)+inc);
+            }
+        }
+        return arr;
     }
 
     public static void main(String[] args){
