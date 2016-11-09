@@ -22,24 +22,17 @@ import java.util.Arrays;
 public class Solution_453 {
 
     public int minMoves(int[] nums) {
-        if(nums.length==1)return 0;
-        int n = nums.length;
-        long sum = 0;
-        int max = 0;
-        for(int i : nums){
-            sum += i;
-            max = Math.max(max,i);
-        }
-        for(long i = max;;i++){
-            if((i*n - sum)%(n-1)==0 ){
-                return (int)((i*n-sum)/(n-1));
-            }
-        }
+        if (nums.length == 0) return 0;
+        int min = nums[0];
+        for (int n : nums) min = Math.min(min, n);
+        int res = 0;
+        for (int n : nums) res += n - min;
+        return res;
     }
 
     public static void main(String[] args){
         Solution_453 sl = new Solution_453();
-        int[] nums = {1,1,2147483647};
+        int[] nums = {-2147483648,-1};
         long res = sl.minMoves(nums);
         System.out.println(res);
     }
