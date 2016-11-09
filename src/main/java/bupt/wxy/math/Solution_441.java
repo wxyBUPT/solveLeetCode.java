@@ -42,8 +42,18 @@ public class Solution_441 {
 
     }
 
+    public int arrangeCoins(int n){
+        if(n < 2) return n;
+        long k = (long)(Math.sqrt(n)*Math.sqrt(2))+1; // use +1 to make sure origin k is larger than what we want
+        while(k*(k+1)/2 > n){
+            k--;
+        }
+        return (int)k;
+    }
 
-    public int arrangeCoins(int n) {
+
+
+    public int myarrangeCoins(int n) {
         int i = 1;
         long sum = 1;
         while (sum<n){
