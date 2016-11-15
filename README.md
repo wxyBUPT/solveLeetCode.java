@@ -142,6 +142,8 @@
 
 ### 76. [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)  
 
+### 287. [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)  
+**上题中两个方法都是之前未尝试过的方法,二分答案,和映射找环**  
 
 本题目本来是很简单,但是自己没有想到很简单的想法,并且使用了别人的方法
 
