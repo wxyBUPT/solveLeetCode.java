@@ -27,7 +27,7 @@ public class Solution_371 {
         while (b!=0){
             int borrow = (~a) & b;
             a = a ^ b;
-            a = borrow << 1;
+            b = borrow << 1;
         }
         return a;
     }
