@@ -1,5 +1,6 @@
 package bupt.wxy.stack;
 
+import java.io.StringReader;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Stack;
@@ -22,39 +23,44 @@ import java.util.Stack;
  */
 public class Solution_394 {
 
-    static Map<String,Integer> map ;
-    static {
-        map = new HashMap<>();
-        for(int i = 0;i<9;i++){
-            StringBuilder sb = new StringBuilder();
-            sb.append(i);
-            map.put(sb.toString(),i);
-        }
-    }
-    public String decodeString(String s) {
-        Stack<String> stack = new Stack<>();
-        int i = 0;
-        StringBuilder pr = new StringBuilder();
-        while (i<s.length()){
-            String c = "" +s.charAt(i);
-            if(map.containsKey(c)){
-                stack.push(c);
-            }
-            else if("[".equals(c)){
-                stack.push(c);
-            }else if("]".equals(c)){
-                String pre = pr.toString();
 
-                System.out.println("一次");
-            }else {
-                pr.append(c);
+    public String decodeString(String s) {
+        String res = "";
+        Stack<Integer> countStack = new Stack<>();
+        Stack<String> resStack = new Stack<>();
+        int idx = 0;
+        while (idx < s.length()) {
+            if (Character.isDigit(s.charAt(idx))) {
+                int count = 0;
+                while (Character.isDigit(s.charAt(idx))) {
+                    count = 10 * count + (s.charAt(idx) - '0');
+                    idx++;
+                }
+                countStack.push(count);
+            }
+            else if (s.charAt(idx) == '[') {
+                resStack.push(res);
+                res = "";
+                idx++;
+            }
+            else if (s.charAt(idx) == ']') {
+                StringBuilder temp = new StringBuilder (resStack.pop());
+                int repeatTimes = countStack.pop();
+                for (int i = 0; i < repeatTimes; i++) {
+                    temp.append(res);
+                }
+                res = temp.toString();
+                idx++;
+            }
+            else {
+                res += s.charAt(idx++);
             }
         }
-        return "";
+        return res;
     }
     public static void main(String[] args){
-        int a = 1;
-        char b = (char)(a +'0');
-        System.out.println(b);
+        Solution_394 sl = new Solution_394();
+        String res = sl.decodeString("3[a2[c]]");
+        System.out.println(res);
     }
 }
