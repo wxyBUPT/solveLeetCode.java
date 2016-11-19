@@ -44,4 +44,7 @@ public class Solution_73 {
             }
         }
     }
+
+    // 还有另外一种方式是在首行保存状态
+    
 }
