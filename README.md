@@ -147,4 +147,7 @@
 
 本题目本来是很简单,但是自己没有想到很简单的想法,并且使用了别人的方法
 
+
+### 394. [Decode String](https://leetcode.com/problems/decode-string/)
+
 **本题为遗留问题,太难想不通**
