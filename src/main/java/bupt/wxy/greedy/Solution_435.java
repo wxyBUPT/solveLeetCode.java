@@ -42,24 +42,22 @@ import java.util.Comparator;
 public class Solution_435 {
 
     public int eraseOverlapIntervals(Interval[] intervals) {
+        if(intervals.length==0)return 0;
         Arrays.sort(intervals, new Comparator<Interval>() {
             @Override
             public int compare(Interval o1, Interval o2) {
-                if(o1.start!=o2.start)return o1.start - o2.start;
-                int d1 = o1.end - o1.start;
-                int d2 = o2.end - o2.start;
-                return d1 - d2;
+                return o1.end - o2.end;
             }
         });
+        int end = intervals[0].end;
+        int count = 1;
 
-        int end = Integer.MIN_VALUE;
-        int rmCount = 0;
-        for(Interval interval:intervals){
-            if(interval.start<end)rmCount++;
-            else {
-                end = interval.end;
+        for (int i = 0; i < intervals.length; i++) {
+            if (intervals[i].start >= end) {
+                end = intervals[i].end;
+                count++;
             }
         }
-        return rmCount;
+        return intervals.length - count;
     }
 }
