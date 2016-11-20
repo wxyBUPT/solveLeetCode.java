@@ -150,4 +150,8 @@
 
 ### 394. [Decode String](https://leetcode.com/problems/decode-string/)
 
+### 416. [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)
+
+一个动态规划题目
+
 **本题为遗留问题,太难想不通**
