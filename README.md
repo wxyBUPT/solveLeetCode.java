@@ -151,7 +151,11 @@
 ### 394. [Decode String](https://leetcode.com/problems/decode-string/)
 
 ### 416. [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)
-
 一个动态规划题目
+
+### 413. [Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/)
+
+上面题目是一个很简单的数学题,但是没有想明白为什么
+
 
 **本题为遗留问题,太难想不通**
